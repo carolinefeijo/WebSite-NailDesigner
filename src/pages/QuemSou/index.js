@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const AboutMe = () => {
+export const QuemSou = () => {
   return (
-    <div>AboutMe</div>
+    <div><h1>Quem sou</h1></div>
   )
 }
