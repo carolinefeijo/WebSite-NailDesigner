@@ -1,25 +1,94 @@
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
+  padding: 2em;
   align-items: center;
 }
 
-.list {
-  display: flex;
+.logo {
+  width: 130px;
+}
+
+@media screen and (max-width: 1000px) {
+  .list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  .item {
+    margin-right: 5em;
+  }
+
+  .item a {
+    color: #dcb4a7;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .item a:hover {
+    color: #000000;
+  }
+}
+
+// navbar secundaria
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+.menu {
   list-style: none;
-  align-items: center;
+  border: none;
 }
 
-.item {
-  margin-right: 5em;
+.menu li {
 }
 
-.item a {
+.menu li a {
   color: #dcb4a7;
   text-decoration: none;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-right: -90px;
+  padding: 15px 80px;
+  display: block;
 }
-.item a:hover {
-  color: #000000;
+
+.menu li a:hover {
+  padding-top: 15px;
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 117px;
+  left: 0;
+  width: 999px;
+  background-color: #fff;
+}
+
+.menuDisable li ul {
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+}
+
+.menu li ul li {
+  display: block;
 }
