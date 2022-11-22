@@ -1,26 +1,30 @@
-.container-Navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  padding: 1em;
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
 
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 
-@media screen and (max-width: 1000px) {
-  .list {
-    display: none;
-    list-style: none;
-  }
+.container-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 {
+  width: 130px;
+  right: 20px;
 }
 
 @media screen and (min-width: 1000px) {
-  .buttonSelector {
-    display: none;
-    position: absolute;
-  }
-
   .list {
     display: flex;
     list-style: none;
@@ -83,4 +87,3 @@
   .icon {
   }
 }
-
