@@ -8,7 +8,6 @@ export const NavBar = () => {
   return (
     <div className="container-Navbar">
       <NavBarPrimary />
-
       <NavBarMobile />
     </div>
   )

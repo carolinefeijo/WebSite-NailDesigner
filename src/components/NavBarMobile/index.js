@@ -24,7 +24,7 @@ export const NavBarMobile = () => {
               setIsActiveButton(isActiveButton ? false : true)
             }}
           >
-            <img className="iconButton" src={menu} alt="logo" />
+            <img className="iconButton" src={menu} alt="icone" />
           </button>
 
           <ul>
@@ -47,7 +47,6 @@ export const NavBarMobile = () => {
             <li>
               <ButtonSecundar />
             </li>
-            
           </ul>
         </li>
       </ul>
