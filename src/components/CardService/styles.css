@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.containerCard {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 80px;
+}
+
+.CardRow {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 12em;
+}
+
+.CardColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+h2 {
+    color: #dcb4a7;
+    font-weight: 400;
+    font-family: Prata;
+    font-size: 42px;
+    line-height: 56px;
+    letter-spacing: -1px;
+}
+
+h6 {
+    color: #828282;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+li {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    opacity: 0.6;
+    line-height: 1.42857143;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    margin: 0;
+
+}
+
+.icon {
+    margin-right: 8px;
+    width: 11px;
+    height: 10px;
+}
