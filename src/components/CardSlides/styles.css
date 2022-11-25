@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container-slides {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-main-card {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  align-items: center;
+  width: 250px;
+  box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.card-container-top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.img-client {
+  width: 45px;
+  height: 51px;
+  object-fit: cover;
+}
+
+.client-container {
+  margin-left: 10px;
+  margin-bottom: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+h5 {
+  color: #111111;
+  font-weight: 400;
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.client-label {
+  font-size: 13px;
+  margin-top: 5px;
+  color: #828282;
+}
+
+.message-client-container {
+  /* width: 300px; */
+
+}
+
+p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #828282;
+}

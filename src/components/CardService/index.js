@@ -6,8 +6,6 @@ import check from '../../assets/icons/check.png'
 export default function CardService({ service }) {
   const { details, img } = service
 
-  console.log(service)
-
   return (
     <div className="containerCard">
       <div className="CardRow">
@@ -26,6 +24,7 @@ export default function CardService({ service }) {
         <div style={{}}>
           <img
             style={{
+              objectFit: 'cover',
               width: '650px',
               boxShadow: '0 25px 98px 0 rgb(0 0 0 / 10%)',
               borderTopLeftRadius: '70%',
