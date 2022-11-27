@@ -37,6 +37,7 @@ export const slides = [
 
 export const servicesList = [
   {
+    id : 1,
     title: 'Aplicação',
     subTitle: 'Alongamento de Fibra de Vidro no molde',
     img: application,
@@ -48,6 +49,7 @@ export const servicesList = [
     ],
   },
   {
+    id : 2,
     title: 'Manutenção',
     subTitle: 'Realização mensalmente',
     img: maintenance,
@@ -58,6 +60,7 @@ export const servicesList = [
     ],
   },
   {
+    id : 3,
     title: 'Decoração',
     subTitle: 'Técnicas de efeitos',
     img: decoration,
@@ -69,6 +72,7 @@ export const servicesList = [
     ],
   },
   {
+    id : 4,
     title: 'Blindagem de Fibra',
     subTitle: 'Realizada na Unha Natural',
     img: armor,

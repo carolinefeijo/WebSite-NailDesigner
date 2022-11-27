@@ -12,10 +12,12 @@ export const Home = () => {
   return (
     <div className="container-home">
       <img className="img-unha" src={nails} alt="Liziane Silva" />
+      <div className='service-container'>
+        {servicesList.map((service) => (
+          <CardService service={service} key={service.title} />
+        ))}
+      </div>
 
-      {servicesList.map((service) => (
-        <CardService service={service} key={service.title} />
-      ))}
 
       <div className="container-titles">
         <h2 className="title-depositions">Depoimentos de Clientes</h2>

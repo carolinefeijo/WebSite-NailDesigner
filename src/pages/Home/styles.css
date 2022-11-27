@@ -1,3 +1,22 @@
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+  .service-container {
+    gap: 10em;
+  }
+
+  .container-card-container {
+    flex-direction: column;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+  .service-container {
+    gap: 15em;
+  }
+}
+
+
 .container-home {
   display: flex;
   width: 100%;
@@ -31,15 +50,21 @@
   color: #828282;
   line-height: 30px;
   font-weight: 400;
-  
+
 }
 
 h6 {
   margin-top: 25px;
 }
 
-.container-card-container{
-  display:flex;
+.container-card-container {
+  display: flex;
   gap: 15px;
+
 }
 
+.service-container {
+  margin-top: 80px;
+  flex-direction: column;
+  display: flex;
+}

@@ -3,20 +3,43 @@
     margin: 0;
 }
 
-.containerCard {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin: 80px;
+/* MOBILE */
+@media only screen and (max-width: 1000px) {
+    .card-container-service {
+        flex-direction: column;
+        
+    }
+    .service-image {
+        width: 400px;
+        height: 400px;
+        margin-top: 20px;
+    }
+   
 }
 
-.CardRow {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    gap: 12em;
+/* DESKTOP */
+@media only screen and (min-width: 1000px) {
+    .card-container-service {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10em;
+    }
+    .service-image {
+        width: 600px;
+        height: 600px;
+        margin-top: 20px;
+    }
+    .card-container-service-reverse {
+        align-items: center;
+        justify-content: center;
+        gap: 10em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
 }
+
 
 .CardColumn {
     display: flex;
@@ -57,4 +80,13 @@ li {
     margin-right: 8px;
     width: 11px;
     height: 10px;
+}
+
+.service-image {
+    object-fit: cover;
+    box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+    border-top-left-radius: 70%;
+    border-top-right-radius: 30% 70%;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 70% 30%;
 }
