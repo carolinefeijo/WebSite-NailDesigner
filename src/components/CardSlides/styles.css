@@ -19,8 +19,9 @@
 }
 
 .card-container {
-  padding: 50px;
+  padding: 30px;
   margin-top: 25px;
+  border-radius: 2px;
   margin-bottom: 25px;
   align-items: center;
   width: 250px;
