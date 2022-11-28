@@ -19,7 +19,7 @@
 }
 
 .card-container {
-  padding: 20px;
+  padding: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
   align-items: center;
@@ -58,11 +58,6 @@ h5 {
   font-size: 13px;
   margin-top: 5px;
   color: #828282;
-}
-
-.message-client-container {
-  /* width: 300px; */
-
 }
 
 p {
