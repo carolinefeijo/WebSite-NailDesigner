@@ -7,6 +7,7 @@ import CardService from '../../components/CardService'
 import { CardSlides } from '../../components/CardSlides'
 
 import nails from '../../assets/img/nails.jpg'
+import AboutComponent from '../../components/AboutComponent'
 
 export const Home = () => {
   return (
@@ -31,6 +32,9 @@ export const Home = () => {
           <CardSlides client={client} key={client.name} />
         ))}
       </div>
+  
+        <AboutComponent />
+     
     </div>
   )
 }
