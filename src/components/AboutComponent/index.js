@@ -4,6 +4,7 @@ import './styles.css'
 import TeamSociais from '../TeamSociais'
 
 import mee from '../../assets/img/AboutMe/mee.jpg'
+
 export default function AboutComponent() {
 
     return (
