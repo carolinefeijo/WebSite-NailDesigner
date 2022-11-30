@@ -8,6 +8,7 @@ import { CardSlides } from '../../components/CardSlides'
 
 import nails from '../../assets/img/nails.jpg'
 import AboutComponent from '../../components/AboutComponent'
+import Carrousel from '../../components/Carrousel'
 
 export const Home = () => {
   return (
@@ -32,9 +33,14 @@ export const Home = () => {
           <CardSlides client={client} key={client.name} />
         ))}
       </div>
-  
-        <AboutComponent />
-     
+
+      <AboutComponent />
+
+      <div style={{ display: 'flex', backgroundColor: '#F2E2DD', width: '100%', marginTop: '30px', alignItems: 'center', justifyContent: 'center' }}>
+        <Carrousel />
+      </div>
+
+
     </div>
   )
 }
