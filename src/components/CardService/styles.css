@@ -32,7 +32,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10em;
+        gap: 15em;
     }
 
     .service-image {
@@ -44,7 +44,7 @@
     .card-container-service-reverse {
         align-items: center;
         justify-content: center;
-        gap: 10em;
+        gap: 15em;
         display: flex;
         flex-direction: row-reverse;
     }

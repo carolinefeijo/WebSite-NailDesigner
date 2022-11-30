@@ -36,10 +36,11 @@ export const Home = () => {
 
       <AboutComponent />
 
-      <div style={{ display: 'flex', backgroundColor: '#F2E2DD', width: '100%', marginTop: '30px', alignItems: 'center', justifyContent: 'center' }}>
+      <div style={{ display: 'flex', backgroundColor: '#F2E2DD', width: '100%', height: '800px', alignItems: 'center', justifyContent: 'center' }}>
         <Carrousel />
       </div>
 
+      <p>shahsahshah</p>
 
     </div>
   )

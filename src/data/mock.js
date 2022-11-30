@@ -35,9 +35,10 @@ export const slides = [
   },
 ]
 
+
 export const servicesList = [
   {
-    id : 1,
+    id: 1,
     title: 'Aplicação',
     subTitle: 'Alongamento de Fibra de Vidro no molde',
     img: application,
@@ -49,7 +50,7 @@ export const servicesList = [
     ],
   },
   {
-    id : 2,
+    id: 2,
     title: 'Manutenção',
     subTitle: 'Realização mensalmente',
     img: maintenance,
@@ -60,7 +61,7 @@ export const servicesList = [
     ],
   },
   {
-    id : 3,
+    id: 3,
     title: 'Decoração',
     subTitle: 'Técnicas de efeitos',
     img: decoration,
@@ -72,10 +73,52 @@ export const servicesList = [
     ],
   },
   {
-    id : 4,
+    id: 4,
     title: 'Blindagem de Fibra',
     subTitle: 'Realizada na Unha Natural',
     img: armor,
     details: ['Não precisa alongar', 'Unha resistente', 'Esmalte não descama'],
   },
 ]
+
+
+export const data = [
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669831372/Nail/272763579_2179502082213815_7096480754564607595_n_tu3zbh.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669820472/Nail/e3733947-9a32-47c2-b80f-644e13152818_rek1dg.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669820506/Nail/7c28e498-7e23-4fa1-a524-728d16af2422_1_zppnw7.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669819430/Nail/297336452_2334078816756140_4599395352822059123_n_dw7eus.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669819425/Nail/272909927_2181624028668287_2486611358207704413_n_x21hvn.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669820459/Nail/293009210_2314179518746070_1132012593160046702_n_svakcu.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669830983/Nail/299477524_2343651975798824_5198373040313374958_n_upd1ie.jpg",
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669820480/Nail/295615736_2325296554301033_241981616792867351_n_zmzoet.jpg",
+
+
+  },
+  {
+    image: "https://res.cloudinary.com/dz6ztllpi/image/upload/v1669830588/Nail/300262566_2347145672116121_3740173224099868760_n_d1fyq5.jpg",
+
+  }
+];
+
