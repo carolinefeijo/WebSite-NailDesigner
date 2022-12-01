@@ -36,9 +36,7 @@ export const Home = () => {
 
       <AboutComponent />
 
-      <div style={{ display: 'flex', backgroundColor: '#F2E2DD', width: '100%', height: '800px', alignItems: 'center', justifyContent: 'center' }}>
         <Carrousel />
-      </div>
 
       <p>shahsahshah</p>
 
