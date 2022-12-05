@@ -8,6 +8,16 @@
     flex-direction: column;
   }
 
+  .container-form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+
+
+  }
+
 
 }
 
@@ -17,9 +27,18 @@
     gap: 15em;
   }
 
+  .container-form {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 10em;
+    flex-direction: row;
+
+
+  }
 
 }
-
 
 .container-home {
   display: flex;
@@ -81,4 +100,12 @@ h6 {
   width: 100%;
   height: 800px;
   background-color: #e0c9c1
+}
+
+.slides-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #e6d1ca
 }

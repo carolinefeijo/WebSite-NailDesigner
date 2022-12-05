@@ -9,18 +9,18 @@ export default function Carrousel() {
     return (
         <div className='container-id'>
             <Carousel
-            style ={{
-
-            }}
+                style={{
+                    margin: '40px'
+                }}
                 data={data}
                 time={5000}
-                 width="950px"
+                width="950px"
                 height="480px"
                 radius="10px"
                 automatic={true}
                 slideImageFit="cover"
                 thumbnails={true}
             />
-         </div>
+        </div>
     );
 }

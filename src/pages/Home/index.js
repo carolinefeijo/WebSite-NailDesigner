@@ -4,11 +4,14 @@ import './styles.css'
 import { slides, servicesList } from '../../data/mock'
 
 import CardService from '../../components/CardService'
+import { Gallery } from '../../components/Gallery'
 import { CardSlides } from '../../components/CardSlides'
 
 import nails from '../../assets/img/nails.jpg'
 import AboutComponent from '../../components/AboutComponent'
 import Carrousel from '../../components/Carrousel'
+import Form from './components/Form'
+import { Footer } from '../../components/Footer'
 
 export const Home = () => {
   return (
@@ -36,9 +39,16 @@ export const Home = () => {
 
       <AboutComponent />
 
+      <div className='slides-container'>
         <Carrousel />
+      </div>
 
-      <p>shahsahshah</p>
+      <div className='container-form'>
+        <Form />
+        <Gallery />
+      </div>
+
+      <Footer />
 
     </div>
   )
