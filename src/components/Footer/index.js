@@ -1,15 +1,29 @@
-import React from 'react'
+import React from "react";
+import "./styles.css";
 
+import { DetailsFooter } from "../Footer/components/DetailsFooter";
+import { TagsFooter } from "./components/TagsFooter";
+import { ContactFooter } from "./components/ContactFooter";
+import TeamSociais from "../TeamSociais";
+import { Midias } from "../Midias";
 
 export const Footer = () => {
-    return (
-        <div style={{ display: 'flex', flexDirection: 'column', width: '100%', backgroundColor: '#e6d1ca', marginTop: '80px' }} >
-            <h1>foote</h1>
+  return (
+    <div className="footer-container">
+      <div className="footer-main-position">
+        <DetailsFooter />
+        <TagsFooter />
+        <ContactFooter
+          name={"RIO GRANDE-RS"}
+          subTitle={"ATENDIMENTO A DOMICÍLIO"}
+        />
+        <ContactFooter
+          name={"+55 53 9241-4581"}
+          subTitle={"LIZIANESILVA@GMAIL.COM"}
+        />
 
-            <h1>foote</h1>
-            <h1>foote</h1>
-            <h1>foote</h1>
-            <h1>foote</h1>
-        </div>
-    )
-}
+        <Midias />
+      </div>
+    </div>
+  );
+};

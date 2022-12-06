@@ -1,0 +1,25 @@
+.footer-details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.logo-footer {
+  width: 380px;
+  height: 100px;
+  object-fit: cover;
+}
+
+span {
+  color: black;
+  line-height: 30px;
+  width: 400px;
+  font-size: 18px;
+  font-family: Prata;
+  letter-spacing: 1px;
+}
