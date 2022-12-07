@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 import facebook from "../../assets/img/Redes/facebook.png";
-import instagram from "../../assets/img/Redes/Instagram.png";
+import instagram from "../../assets/img/Redes/instagram.png";
 import whatsApp from "../../assets/img/Redes/whatsApp.png";
 
 export const Midias = () => {
