@@ -10,7 +10,7 @@ export const DetailsFooter = () => {
         <img className="logo-footer" src={logoo} alt="logo" />
         <span>
           Designer especialista em alongamento de unhas e sou completamente
-          apaixonada pelo meu trabalho ♥ <br />
+          apaixonada pelo meu trabalho ❤ <br />
           Não faça drama , faça as suas unhas !
         </span>
       </div>

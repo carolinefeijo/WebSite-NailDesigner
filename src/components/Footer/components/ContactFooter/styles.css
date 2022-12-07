@@ -8,14 +8,11 @@ li {
   height: 40px;
 }
 
-.p-contact {
+p {
   text-decoration: none;
-  font-family: Prata;
   color: black;
-  font-size: 17px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a:hover {
-  color: #e0b0a0;
-  font-weight: bold;
-}
+

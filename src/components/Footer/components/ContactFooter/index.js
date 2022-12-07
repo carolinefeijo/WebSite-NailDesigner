@@ -6,11 +6,11 @@ export const ContactFooter = ({ name, subTitle }) => {
     <div className="contact-details-container">
       <ul>
         <li>
-          <p className="p-contact"> {name}</p>
+          <p> {name}</p>
         </li>
 
         <li>
-          <p className="p-contact"> {subTitle}</p>
+          <p> {subTitle}</p>
         </li>
       </ul>
     </div>
