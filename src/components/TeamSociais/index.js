@@ -1,27 +1,19 @@
-import React from 'react'
-import './styles.css'
+import React from "react";
+import "./styles.css";
 
-import facebook from '../../assets/icons/nets/facebook.png'
-import instagran from '../../assets/icons/nets/instagran.png'
+import facebook from "../../assets/img/Redes/facebook.png";
+import instagram from "../../assets/img/Redes/instagram.png";
 
 export default function TeamSociais() {
+  return (
+    <div className="midias-team-container">
+      <a href="https://www.facebook.com/profile.php?id=100004621325427">
+        <img className="logo-img-team" src={facebook} alt="facebook" />
+      </a>
 
-
-    return (
-        <div className='container-redes' >
-            <div className='main-redes-container'>
-                <div className='card-redes'>
-                    <a href='https://www.facebook.com/profile.php?id=100004621325427'>
-                        <img className='icon-facebook' src={facebook} alt="icone do facebook" />
-                    </a>
-                </div>
-
-                <div className='card-redes'>
-                    <a href='https://www.instagram.com/lizzy.n.a.i.l.s/'>
-                        <img className='icon-facebook' src={instagran} alt="icone do facebook" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    )
+      <a href="https://www.instagram.com/lizzy.n.a.i.l.s/">
+        <img className="logo-img-team" src={instagram} alt="instagram" />
+      </a>
+    </div>
+  );
 }
