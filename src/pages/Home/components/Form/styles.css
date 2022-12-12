@@ -18,7 +18,7 @@
     flex-direction: column;
   }
   input[type="text"] {
-    width: 410px;
+    width: 210px;
     height: 58px;
     font-size: 18px;
     padding: 12px 20px;
@@ -30,7 +30,7 @@
   }
 
   #message {
-    width: 410px;
+    width: 210px;
     height: 58px;
     font-size: 18px;
     padding: 12px 20px;
@@ -41,7 +41,7 @@
     box-sizing: border-box;
   }
   input[type="submit"] {
-    width: 100%;
+    width: 30%;
     height: 60px;
     font-size: 18px;
     background-color: #e0b0a0;
