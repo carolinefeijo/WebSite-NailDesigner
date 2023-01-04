@@ -10,7 +10,7 @@ export default function CardService({ service }) {
     <div className= { id % 2 == 0 ?"card-container-service" : "card-container-service-reverse"}>
       <div className="CardColumn">
         <h2>{service.title}</h2>
-        <h6>{service.subTitle}</h6>
+        <h6 className='h6-service'>{service.subTitle}</h6>
 
         {details.map((item) => (
           <li>

@@ -4,13 +4,14 @@
 }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
 .navbar {
   display: flex;
   width: 100%;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -20,15 +21,19 @@ body {
 }
 
 .logo1 {
-  width: 130px;
+  width: 220px;
   right: 20px;
 }
+
+
 
 @media screen and (min-width: 1000px) {
   .list {
     display: flex;
     list-style: none;
     align-items: center;
+    justify-content: center;
+    justify-items: center;
   }
 
   .item {
@@ -38,7 +43,7 @@ body {
   .item a {
     color: #dcb4a7;
     text-decoration: none;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 
   .menu {
@@ -83,6 +88,4 @@ body {
   .menu li ul li {
     display: block;
   }
-
-
 }

@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .container-slides {
@@ -35,8 +35,8 @@
 }
 
 .img-client {
-  width: 45px;
-  height: 51px;
+  width: 50px;
+  height: 58px;
   object-fit: cover;
 }
 
@@ -47,22 +47,22 @@
   justify-content: center;
 }
 
-h5 {
+.name-client {
   color: #111111;
   font-weight: 400;
   margin-top: 25px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.2;
 }
 
 .client-label {
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 5px;
   color: #828282;
 }
 
-p {
-  font-size: 14px;
-  line-height: 26px;
+.client-description {
+  font-size: 17px;
+  line-height: 36px;
   color: #828282;
 }

@@ -7,13 +7,13 @@ export const CardSlides = ({ client }) => {
       <div className="card-container-top">
         <img className="img-client" src={client.img} alt="cliente" />
         <div className="client-container">
-          <h5>{client.name}</h5>
+          <h5 className='name-client'>{client.name}</h5>
           <p className="client-label">{client.type} </p>
         </div>
       </div>
 
       <div className="message-client-container">
-        <p>{client.description}</p>
+        <p className='client-description'>{client.description}</p>
       </div>
     </div>
   )

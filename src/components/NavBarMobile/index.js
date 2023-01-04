@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './styles.css'
 import { Link } from 'react-router-dom'
 
-import logo from '../../assets/img/logo.jpg'
+import logo from '../../assets/img/logoo.jpg'
 import menu from '../../assets/icons/menu.jpg'
 
 import ButtonSecundar from '../ButtonSecundar'
