@@ -1,3 +1,11 @@
+.title-depositions-secundary-About {
+  display: block;
+  font-size: 20px;
+  color: #828282;
+  line-height: 30px;
+  font-weight: 400;
+}
+
 /* MOBILE */
 @media only screen and (max-width: 1000px) {
   .aboute-container {
@@ -15,6 +23,14 @@
     align-items: center;
     justify-content: center;
     width: 180px;
+  }
+  .title-depositions-secundary-About {
+    display: block;
+    font-size: 20px;
+    color: #828282;
+    width: 174px;
+    line-height: 30px;
+    font-weight: 400;
   }
 }
 

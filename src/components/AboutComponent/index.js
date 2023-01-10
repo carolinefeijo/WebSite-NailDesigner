@@ -2,14 +2,13 @@ import React from "react";
 import "./styles.css";
 
 import TeamSociais from "../TeamSociais";
-
 import mee from "../../assets/img/AboutMe/mee.jpg";
 
 export default function AboutComponent() {
   return (
-    <div className="container-main">
+    <div className="container-main" id="aboutMe">
       <h2 className="title-depositions">Quem sou</h2>
-      <h6 className="title-depositions-secundary">
+      <h6 className="title-depositions-secundary-About">
         Venha conhecer um pouco sobre mim !
       </h6>
 
@@ -20,7 +19,9 @@ export default function AboutComponent() {
 
         <div className="myStory-container">
           <h5 className="name-client">Liziane Silva</h5>
-          <span className="client-description-span">Especialista em Designer de Unhas</span>
+          <span className="client-description-span">
+            Especialista em Designer de Unhas
+          </span>
           <br />
           <p>
             Olá, Queridas clientes!

@@ -1,14 +1,14 @@
-import './App.css'
+import "./App.css";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-import { Home } from './pages/Home'
-import { Serviços } from './pages/Serviços'
-import { QuemSou } from './pages/QuemSou'
-import { Localização } from './pages/Localização'
-import { Contato } from './pages/Contato'
+import { Home } from "./pages/Home";
+import { Services } from "./pages/Services";
+import { AboutMe } from "./pages/AboutMe";
+import { Localization } from "./pages/Localization";
+import { Contact } from "./pages/Contact";
 
-import { NavBar } from './components/NavBar'
+import { NavBar } from "./components/NavBar";
 
 export default function App() {
   return (
@@ -17,12 +17,12 @@ export default function App() {
         <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/services" element={<Serviços />} />
-          <Route exact path="/aboutMe" element={<QuemSou />} />
-          <Route exact path="/localization" element={<Localização />} />
-          <Route exact path="/contact" element={<Contato />} />
+          <Route exact path="/services" element={<Services />} />
+          <Route exact path="/aboutMe" element={<AboutMe />} />
+          <Route exact path="/localization" element={<Localization />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
-  )
+  );
 }

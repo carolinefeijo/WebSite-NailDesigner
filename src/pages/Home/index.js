@@ -15,7 +15,7 @@ import { Footer } from '../../components/Footer'
 
 export const Home = () => {
   return (
-    <div className="container-home">
+    <div className="container-home"  id="home">
       <img className="img-unha" src={nails} alt="Liziane Silva" />
       <div className='service-container'>
         {servicesList.map((service) => (

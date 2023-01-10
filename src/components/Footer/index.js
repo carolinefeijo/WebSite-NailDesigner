@@ -8,9 +8,8 @@ import { Midias } from "../Midias";
 
 export const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="localization">
       <div className="footer-main-position">
-        
         <div className="default-alignment-container">
           <DetailsFooter />
 

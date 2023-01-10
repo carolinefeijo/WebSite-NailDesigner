@@ -35,8 +35,8 @@
 }
 
 .img-client {
-  width: 50px;
-  height: 58px;
+  width: 65px;
+  /* height: 58px; */
   object-fit: cover;
 }
 

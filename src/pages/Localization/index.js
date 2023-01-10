@@ -1,9 +1,9 @@
 import React from 'react'
 
-export const Serviços = () => {
+export const Localization = () => {
   return (
     <div>
-      <h1>Serviços</h1>
+      <h1>Localização</h1>
     </div>
   )
 }
