@@ -6,6 +6,9 @@
 
   .container-card-container {
     flex-direction: column;
+    display: flex;
+    align-items:center;
+    justify-content: center;
   }
 
   .container-form {

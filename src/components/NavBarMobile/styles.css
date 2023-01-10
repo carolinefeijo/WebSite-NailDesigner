@@ -27,9 +27,12 @@ ul li {
   justify-content: center;
 }
 
-
 /* MOBILE */
 @media screen and (max-width: 1000px) {
+  ul a {
+    display: flex;
+    width: 500px;
+  }
   .list {
     display: none;
     list-style: none;
@@ -42,11 +45,35 @@ ul li {
     justify-content: space-between;
     padding: 2em;
   }
+  ul {
+    display: flex;
+  }
+  .menu ul li {
+    background-color: #ffffff;
+  }
+  .menu li ul {
+    position: absolute;
+    display: block;
+    top: 103px;
+    left: -358px;
+    background-color: rgb(233, 233, 233);
+    width: 437px;
+    height: 240px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
   .menu ul li {
     background-color: #dcb4a7;
+  }
+
+  .menu li a {
+    font-weight: 500;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 25px;
+    padding: 15px 80px;
+    display: block;
   }
   .navbar {
     display: flex;
@@ -87,7 +114,7 @@ li {
 
 .menu li a {
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
   list-style: none;
   text-decoration: none;
   padding-bottom: 25px;
@@ -96,12 +123,12 @@ li {
 }
 
 .menu li a:hover {
-  padding-top: 15px;
-  background: #fbfbfb;
-  color: #000000;
-  -moz-box-align: 0 3px 10px 0 #ccc;
-  -webkit-box-align: 0 3px 10px 0 #ccc;
-  text-shadow: 0px 0px 5px rgb(26, 25, 25);
+  padding-top: 20px;
+  background: #ffffff;
+
+  /* -moz-box-align: 0 3px 10px 0 #ccc;
+  -webkit-box-align: 0 3px 10px 0 #ccc; */
+  text-shadow: 0px 0px 5px rgb(154, 25, 25);
 }
 
 .menu li ul {
@@ -112,6 +139,14 @@ li {
   background-color: rgb(233, 233, 233);
   height: 240px;
   width: 500px;
+}
+.active,
+.dot:hover {
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  align-items:'center';
+  background-color: #f3e9e6;
 }
 
 .menu ul li a {

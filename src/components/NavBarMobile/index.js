@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 import logo from "../../assets/img/logoo.jpg";
 import menu from "../../assets/icons/menu.jpg";
@@ -27,25 +27,58 @@ export const NavBarMobile = () => {
             <img className="iconButton" src={menu} alt="icone" />
           </button>
 
-          <ul >
+          <ul>
             <li>
-              <a href="./">HOME</a>
+              <a href="/">HOME</a>
             </li>
 
             <li>
-              <a href="./services">SERVIÇOS</a>
+              <Link
+                to="services"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                SERVIÇOS
+              </Link>
             </li>
 
             <li>
-              <a href="/aboutMe">QUEM SOU</a>
+              <Link
+                to="aboutMe"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                QUEM SOU
+              </Link>
             </li>
 
             <li>
-              <a href="./localization">LOCALIZAÇÃO</a>
+              <Link
+                to="localization"
+                spy={true}
+                smooth={true}
+                offset={300}
+                duration={500}
+              >
+                LOCALIZAÇÃO
+              </Link>
             </li>
 
             <li>
-              <ButtonSecundar />
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={500}
+              >
+                {" "}
+                <ButtonSecundar size={"10px"} />
+              </Link>
             </li>
           </ul>
         </li>

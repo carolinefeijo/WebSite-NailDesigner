@@ -20,7 +20,7 @@ export default function CardService({ service }) {
         <h6 className="h6-service">{service.subTitle}</h6>
 
         {details.map((item) => (
-          <li>
+          <li key={item}>
             <img className="icon" src={check} alt="check" />
             {item}
           </li>
