@@ -13,6 +13,8 @@ export default function Form() {
     if (name === "" || phone === "" || message === "") {
       alert("Preencha todos os campos");
       return;
+    } else {
+      alert("Entre com contato assim que possivel,obrigada!");
     }
   }
 
