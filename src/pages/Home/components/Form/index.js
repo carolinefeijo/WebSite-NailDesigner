@@ -7,23 +7,12 @@ export default function Form() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  function sendEmail(e) {
-    e.preventDefault();
-
-    if (name === "" || phone === "" || message === "") {
-      alert("Preencha todos os campos");
-      return;
-    } else {
-      alert("Entre com contato assim que possivel,obrigada!");
-    }
-  }
-
   return (
     <div className="form-container" id="contact">
       <h2 className="title-h2">Vamos Conversar? </h2>
       <h6 className="title-h6">Me envie uma mensagem !</h6>
 
-      <form className="form" onSubmit={sendEmail}>
+      <form className="form" onSubmit={() => {}}>
         <input
           type="text"
           id="name"
