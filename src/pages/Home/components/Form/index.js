@@ -63,20 +63,19 @@ export default function Form() {
           id="name"
           name="name"
           placeholder="Seu nome"
-          autocomplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
-
         <input
-          type="text"
+          type="tel"
           id="phone"
           name="phone"
-          placeholder="Seu telefone"
+          placeholder="(xx) xxxxx-xxxx"
+          minLength={9}
+          maxLength={14}
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
         />
-
         <textarea
           className="message"
           type="text"
@@ -86,7 +85,6 @@ export default function Form() {
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
-
         <input type="submit" value="ENVIAR" />
       </form>
     </div>
