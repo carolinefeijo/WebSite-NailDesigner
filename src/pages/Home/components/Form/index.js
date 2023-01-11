@@ -63,6 +63,7 @@ export default function Form() {
           id="name"
           name="name"
           placeholder="Seu nome"
+          autocomplete="off"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
